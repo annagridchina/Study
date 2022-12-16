@@ -8,9 +8,9 @@
 
 Console.WriteLine("start"); //начало
 
-int a = 44;
-int b = 5;
-int c = 78;
+int a = 22;
+int b = 3;
+int c = 9;
 int max = 0;
 if (a < b)
 {
