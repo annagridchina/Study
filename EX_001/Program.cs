@@ -8,26 +8,19 @@
 
 Console.WriteLine("start"); //начало
 
-int a = 22;
-int b = 3;
-int c = 9;
-int max = 0;
-if (a < b)
+int a = 120;
+int b = 110;
+int c = 130;
+int max = a;
+if (max < b)
 {
     max = b;
 }
-if (b < c)
+if (max < c)
 {
     max = c;
 }
-else
-{
-    max = a;
-};
- if (a < c)
- {
-    max = c;
- }
+
 Console.WriteLine(max);
 
 Console.WriteLine("end");
